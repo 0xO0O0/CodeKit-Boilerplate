@@ -1,16 +1,16 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "7839",
+  "creatorBuild" : "8248",
   "files" : {
     "\/haml\/index.haml" : {
       "inputAbbreviatedPath" : "\/haml\/index.haml",
       "outputAbbreviatedPath" : "\/build\/index.html",
-      "outputPathIsSetByUser" : 1,
+      "outputPathIsSetByUser" : 0,
       "escapeHTMLCharacters" : 0,
       "useUnixNewlines" : 0,
       "useCDATA" : 0,
       "ignore" : 0,
-      "noEscapeInAttributes" : 0,
+      "noEscapeInAttributes" : 1,
       "outputFormat" : 2,
       "useDoubleQuotes" : 0,
       "ignoreWasSetByUser" : 0,
@@ -109,6 +109,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/build\/apple-touch-icon-144x144-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-144x144-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-144x144-precomposed.png",
+      "initialSize" : 1795,
+      "fileType" : 8192
+    },
     "\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -121,36 +132,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/apple-touch-icon-144x144-precomposed.png" : {
+    "\/sass\/partials\/_fonts.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-144x144-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-144x144-precomposed.png",
-      "initialSize" : 1795,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/partials\/_fonts.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_fonts.css",
+      "fileType" : 4,
+      "debugStyle" : 2
     },
-    "\/build\/apple-touch-icon-72x72-precomposed.png" : {
+    "\/build\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
-      "initialSize" : 1351,
-      "fileType" : 8192
-    },
-    "\/build\/apple-touch-icon-57x57-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
       "initialSize" : 1144,
       "fileType" : 8192
     },
@@ -171,26 +172,17 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
+      "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/build\/css\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/css\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/build\/apple-touch-icon-precomposed.png" : {
+    "\/build\/apple-touch-icon-57x57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
       "initialSize" : 1144,
       "fileType" : 8192
     },
@@ -205,6 +197,17 @@
       "outputAbbreviatedPath" : "\/build\/css\/_ie.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/build\/apple-touch-icon-72x72-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
+      "initialSize" : 1351,
+      "fileType" : 8192
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -225,6 +228,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/build\/js\/plugins-ck.js",
       "fileType" : 64
+    },
+    "\/build\/css\/screen.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/css\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/vendor\/_css3-mediaqueries.js" : {
       "ignoreWasSetByUser" : 0,
@@ -248,17 +260,6 @@
       "initialSize" : 1144,
       "fileType" : 8192
     },
-    "\/build\/apple-touch-icon-114x114-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-114x114-precomposed.png",
-      "initialSize" : 2042,
-      "fileType" : 8192
-    },
     "\/build\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -269,6 +270,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/build\/js\/modernizr-2.6.2.min-ck.js",
       "fileType" : 64
+    },
+    "\/build\/apple-touch-icon-114x114-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-114x114-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-114x114-precomposed.png",
+      "initialSize" : 2042,
+      "fileType" : 8192
     }
   },
   "manualImportLinks" : [
@@ -276,6 +288,7 @@
   ],
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 1,
+    "kitAutoOutputPathStyle" : 1,
     "lessOutputStyle" : 0,
     "hamlAutoOutputPathReplace2" : "",
     "draggedImportConcatenationStyle" : 1,
@@ -301,12 +314,13 @@
     "jsCheckerReservedNamesString" : "$, jQuery, console",
     "javascriptOutputStyle" : 0,
     "stylusDebugStyle" : 0,
-    "hamlUseCDATA" : 1,
-    "hamlAutoOutputPathStyle" : 2,
+    "hamlUseCDATA" : 0,
+    "hamlAutoOutputPathStyle" : 1,
     "sassDebugStyle" : 2,
     "hamlOutputStyle" : 0,
     "stylusAutoOutputPathRelativePath" : "..\/css",
     "jsCheckerIndent" : 4,
+    "kitAutoOutputPathRelativePath" : "\/build",
     "lessAutoOutputPathReplace2" : "css",
     "jadeAutoOutputPathReplace2" : "",
     "shouldRunBless" : 0,
@@ -331,7 +345,10 @@
     "coffeeAutoOutputPathReplace1" : "",
     "hamlUseDoubleQuotes" : 0,
     "coffeeAutoOutputPathReplace2" : "",
+    "kitAutoOutputPathReplace1" : "",
     "uglifyReservedNamesString" : "",
+    "coffeeOutputStyle" : 0,
+    "slimAutoOutputPathRelativePath" : "",
     "jsHintFlags" : {
       "latedef" : 1,
       "newcap" : 1,
@@ -388,8 +405,6 @@
       "laxbreak" : 0,
       "plusplus" : 0
     },
-    "coffeeOutputStyle" : 0,
-    "slimAutoOutputPathRelativePath" : "",
     "jsLintFlags" : {
       "white" : 0,
       "bitwise" : 0,
@@ -415,7 +430,6 @@
       "confusion" : 0,
       "evil" : 0,
       "on" : 0,
-      "cap" : 0,
       "windows" : 0,
       "devel" : 0,
       "rhino" : 0,
@@ -441,8 +455,15 @@
     "slimAutoOutputPathReplace2" : "",
     "jadeCompileDebug" : 1,
     "slimRailsCompatible" : 0,
+    "kitAutoOutputPathReplace2" : "",
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "\/build\/js",
     "slimAutoOutputPathStyle" : 0
+  },
+  "projectAttributes" : {
+    "bourbonEnabled" : 0,
+    "displayValue" : "CodeKit-Boilerplate",
+    "displayValueWasSetByUser" : 1,
+    "compassEnabled" : 1
   }
 }
