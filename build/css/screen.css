@@ -583,7 +583,7 @@ body {
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate.
+ * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
 /* line 32, ../../sass/vendor/_h5bp.scss */
@@ -671,7 +671,7 @@ textarea {
   content: "";
   display: block;
   width: 0;
-  height: 100%;
+  height: 150%;
 }
 
 /*
@@ -757,13 +757,13 @@ textarea {
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
-   Theses examples override the primary ('mobile first') styles.
+   These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 /* ==========================================================================
@@ -771,7 +771,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 234, ../../sass/vendor/_h5bp.scss */
+  /* line 236, ../../sass/vendor/_h5bp.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -780,18 +780,18 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 242, ../../sass/vendor/_h5bp.scss */
+  /* line 244, ../../sass/vendor/_h5bp.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 246, ../../sass/vendor/_h5bp.scss */
+  /* line 248, ../../sass/vendor/_h5bp.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 250, ../../sass/vendor/_h5bp.scss */
+  /* line 252, ../../sass/vendor/_h5bp.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -799,33 +799,33 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 260, ../../sass/vendor/_h5bp.scss */
+  /* line 262, ../../sass/vendor/_h5bp.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 265, ../../sass/vendor/_h5bp.scss */
+  /* line 267, ../../sass/vendor/_h5bp.scss */
   pre,
   blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
-  /* line 270, ../../sass/vendor/_h5bp.scss */
+  /* line 272, ../../sass/vendor/_h5bp.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 275, ../../sass/vendor/_h5bp.scss */
+  /* line 277, ../../sass/vendor/_h5bp.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 279, ../../sass/vendor/_h5bp.scss */
+  /* line 281, ../../sass/vendor/_h5bp.scss */
   img {
     max-width: 100% !important;
   }
@@ -834,7 +834,7 @@ textarea {
     margin: 0.5cm;
 }
 
-  /* line 289, ../../sass/vendor/_h5bp.scss */
+  /* line 291, ../../sass/vendor/_h5bp.scss */
   p,
   h2,
   h3 {
@@ -842,7 +842,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 295, ../../sass/vendor/_h5bp.scss */
+  /* line 297, ../../sass/vendor/_h5bp.scss */
   h2,
   h3 {
     page-break-after: avoid;
