@@ -143,15 +143,27 @@
       "initialSize" : 1795,
       "fileType" : 8192
     },
-    "\/build\/apple-touch-icon-72x72-precomposed.png" : {
+    "\/sass\/partials\/_fonts.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/_fonts.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_fonts.css",
+      "fileType" : 4,
+      "debugStyle" : 2
+    },
+    "\/build\/apple-touch-icon-57x57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
-      "initialSize" : 1351,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
+      "initialSize" : 1144,
       "fileType" : 8192
     },
     "\/build\/apple-touch-icon-precomposed.png" : {
@@ -165,6 +177,15 @@
       "initialSize" : 1144,
       "fileType" : 8192
     },
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/partials\/_ie.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -177,27 +198,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/partials\/_fonts.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/_fonts.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_fonts.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
     "\/build\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -207,25 +207,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/build\/apple-touch-icon-57x57-precomposed.png" : {
+    "\/build\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-57x57-precomposed.png",
-      "initialSize" : 1144,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-72x72-precomposed.png",
+      "initialSize" : 1351,
       "fileType" : 8192
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
     },
     "\/build\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -238,6 +229,15 @@
       "outputAbbreviatedPath" : "\/build\/js\/plugins-ck.js",
       "fileType" : 64
     },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
     "\/js\/vendor\/_css3-mediaqueries.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -248,6 +248,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/build\/js\/_css3-mediaqueries-ck.js",
       "fileType" : 64
+    },
+    "\/build\/apple-touch-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
+      "initialSize" : 1144,
+      "fileType" : 8192
     },
     "\/build\/apple-touch-icon-114x114-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -270,17 +281,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/build\/js\/modernizr-2.6.2.min-ck.js",
       "fileType" : 64
-    },
-    "\/build\/apple-touch-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon.png",
-      "initialSize" : 1144,
-      "fileType" : 8192
     },
     "\/build\/js\/vendor\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
