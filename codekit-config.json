@@ -1,53 +1,57 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8317",
+  "creatorBuild" : "8322",
   "files" : {
-    "\/build\/js\/vendor\/modernizr-2.6.2.min.js" : {
+    "\/build\/404.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/404.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/build\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/build\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/js\/main.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
+      "fileType" : 64
+    },
+    "\/src\/js\/vendor\/_jquery.debouncedresize.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/js\/vendor\/_jquery.debouncedresize.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/_jquery.debouncedresize-ck.js",
+      "fileType" : 64
+    },
+    "\/build\/js\/vendor\/jquery.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/vendor\/modernizr-2.6.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/build\/js\/modernizr-2.6.2.min-ck.js",
+      "inputAbbreviatedPath" : "\/build\/js\/vendor\/jquery.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/jquery-ck.js",
       "fileType" : 64
-    },
-    "\/src\/sass\/partials\/_fonts.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_fonts.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_fonts.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_grid.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/style.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/src\/sass\/style.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 1
     },
     "\/src\/sass\/partials\/_ie.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -61,168 +65,41 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/src\/js\/vendor\/_css3-mediaqueries.js" : {
+    "\/src\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/js\/vendor\/_css3-mediaqueries.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/_css3-mediaqueries-ck.js",
-      "fileType" : 64
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/src\/sass\/style.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
-    "\/src\/sass\/vendor\/neat\/functions\/_private.scss" : {
+    "\/src\/js\/main.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/build\/js\/main.js",
+      "outputStyle" : 1,
+      "fileType" : 32
+    },
+    "\/src\/sass\/partials\/_settings-grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/functions\/_private.scss",
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_settings-grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_private.css",
+      "outputAbbreviatedPath" : "\/build\/css\/_settings-grid.css",
       "fileType" : 4,
       "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/functions\/_new-breakpoint.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/functions\/_new-breakpoint.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_new-breakpoint.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_outer-container.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_outer-container.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_outer-container.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/_neat.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/_neat.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_neat.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_private.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_private.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_private.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/functions\/_px-to-em.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/functions\/_px-to-em.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_px-to-em.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_visual-grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_visual-grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_visual-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/settings\/_visual-grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/settings\/_visual-grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_visual-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_shift.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_shift.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_shift.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/build\/js\/main.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/main.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/main-ck.js",
-      "fileType" : 64
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_pad.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_pad.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_pad.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_fill-parent.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_fill-parent.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_fill-parent.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/build\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/src\/sass\/partials\/_settings-general.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -236,38 +113,39 @@
       "fileType" : 4,
       "debugStyle" : 2
     },
-    "\/src\/sass\/vendor\/neat\/grid\/_span-columns.scss" : {
+    "\/src\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_span-columns.scss",
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_main.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_span-columns.css",
+      "outputAbbreviatedPath" : "\/build\/css\/_main.css",
       "fileType" : 4,
-      "debugStyle" : 2
+      "debugStyle" : 0
     },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+    "\/src\/js\/plugins.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_reset.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_reset.scss",
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/src\/js\/plugins.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_reset.css",
-      "fileType" : 4,
-      "debugStyle" : 2
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/build\/js\/plugins.js",
+      "fileType" : 64
+    },
+    "\/build\/apple-touch-icon-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
+      "initialSize" : 1226,
+      "fileType" : 8192
     },
     "\/src\/haml\/index.haml" : {
       "inputAbbreviatedPath" : "\/src\/haml\/index.haml",
@@ -285,166 +163,36 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/src\/sass\/partials\/_main.scss" : {
+    "\/build\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_main.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_main.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_media.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_media.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_media.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_to-deprecate.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_to-deprecate.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_to-deprecate.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/build\/js\/vendor\/jquery.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/vendor\/jquery.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/jquery-ck.js",
-      "fileType" : 64
-    },
-    "\/build\/apple-touch-icon-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/build\/apple-touch-icon-precomposed.png",
-      "initialSize" : 1226,
-      "fileType" : 8192
-    },
-    "\/build\/js\/vendor\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/vendor\/jquery.min.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/jquery.min-ck.js",
-      "fileType" : 64
-    },
-    "\/src\/sass\/vendor\/neat\/grid\/_omega.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_omega.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_omega.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/build\/404.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
     },
-    "\/src\/sass\/vendor\/_normalize.scss" : {
+    "\/build\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_normalize.scss",
+      "inputAbbreviatedPath" : "\/build\/js\/plugins.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/src\/sass\/vendor\/neat\/settings\/_grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/settings\/_grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_grid.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/vendor\/neat\/_neat-helpers.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/_neat-helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_neat-helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/src\/js\/plugins.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/build\/js\/plugins.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/plugins-ck.js",
       "fileType" : 64
     },
-    "\/src\/sass\/vendor\/neat\/grid\/_row.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/build\/js\/vendor\/modernizr-2.6.2.min.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/neat\/grid\/_row.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_row.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/partials\/_settings-grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_settings-grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_settings-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 2
+      "inputAbbreviatedPath" : "\/build\/js\/vendor\/modernizr-2.6.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/build\/js\/modernizr-2.6.2.min-ck.js",
+      "fileType" : 64
     },
     "\/src\/sass\/vendor\/_h5bp.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -458,28 +206,40 @@
       "fileType" : 4,
       "debugStyle" : 2
     },
-    "\/build\/js\/plugins.js" : {
+    "\/build\/js\/vendor\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/js\/vendor\/jquery.min.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/build\/js\/jquery.min-ck.js",
+      "fileType" : 64
+    },
+    "\/src\/sass\/partials\/_fonts.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/plugins.js",
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_fonts.scss",
       "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/build\/js\/plugins-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_fonts.css",
+      "fileType" : 4,
+      "debugStyle" : 2
     },
-    "\/src\/js\/main.coffee" : {
+    "\/src\/sass\/vendor\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/js\/main.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/build\/js\/main.js",
-      "outputStyle" : 1,
-      "fileType" : 32
+      "inputAbbreviatedPath" : "\/src\/sass\/vendor\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [

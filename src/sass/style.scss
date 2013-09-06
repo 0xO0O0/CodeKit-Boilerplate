@@ -1,10 +1,10 @@
 // This compiles to /build/css/style.css
 
-@import "bourbon";
 @import "vendor/normalize";
 @import "vendor/h5bp";
+@import "bourbon";
 @import "partials/settings-grid";
-@import "vendor/neat/neat";
+@import "neat";
 @import "partials/settings-general";
 @import "partials/fonts";
 @import "partials/main";

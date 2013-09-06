@@ -1,4 +1,4 @@
-@import "../vendor/neat/neat-helpers";
+@import "neat/neat-helpers";
 
 /*************
  General
@@ -143,5 +143,5 @@ $visual-grid-color: #E6F6FF;
 	Shorthand syntax
 		media($first-feature $first-value [$second-feature, $second-value] [$total-columns])
 */
-// $tablet: new-breakpoint(max-width 768px 8);
+$tablet: new-breakpoint(max-width 1023px);
 $mobile: new-breakpoint(max-width 767px 6);
