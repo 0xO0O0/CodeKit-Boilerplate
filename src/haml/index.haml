@@ -10,10 +10,10 @@
 	<!--<![endif]-->
 	%head
 		%meta{:charset => 'utf-8'}
-		%meta{:'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1'}
+		%meta{:'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge'}
 		%title= ''
 		%meta{:name => 'description', :content => ''}
-		%meta{:name => 'viewport', :content => 'width=device-width'}
+		%meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1'}
 
 		%link{:rel => 'stylesheet', :href => 'css/style.css'}
 		/[if lt IE 9] <script src='//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js'></script>
@@ -21,7 +21,7 @@
 		:javascript
 			window.Modernizr || document.write('<script src="js/vendor/modernizr-2.6.2.min.js"><\/script>')
 	%body
-		/[if lt IE 8] <p class='chromeframe'>You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/' target='_blank'>upgrade your browser</a> or <a href='http://www.google.com/chromeframe/?redirect=true' target='_blank'>activate Google Chrome Frame</a> to improve your experience.</p>
+		/[if lt IE 8] <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
 
 		.main.container{:role => 'main'}
 			/ Begin main content
@@ -36,7 +36,7 @@
 
 			/ End main content
 
-		%script{:src => '//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'}
+		%script{:src => '//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'}
 		:javascript
 			window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
 
@@ -45,7 +45,9 @@
 
 		-# Google Analytics: change UA-XXXXX-X to correct ID.
 		:javascript
-			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)}(document,'script'));
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
