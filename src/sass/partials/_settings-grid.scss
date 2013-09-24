@@ -18,7 +18,7 @@
 
 	Sets the default media feature that media() and new-breakpoint() revert to when only a breakpoint value is passed.
 */
-// $default-feature: min-width;
+$default-feature: max-width;
 
 /* $default-layout-direction
 	type: string
@@ -143,5 +143,5 @@ $visual-grid-color: #E6F6FF;
 	Shorthand syntax
 		media($first-feature $first-value [$second-feature, $second-value] [$total-columns])
 */
-$tablet: new-breakpoint(max-width 1023px);
-$mobile: new-breakpoint(max-width 767px 6);
+$smaller: new-breakpoint($default-feature 1023px);
+$mobile: new-breakpoint($default-feature 767px 6);

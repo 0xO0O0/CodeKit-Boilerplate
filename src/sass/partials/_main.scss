@@ -1,5 +1,5 @@
 div.container {
-	@include outer-container;
+	@extend %outer-container;
 
 	.parent-element {
 		@include span-columns(8);
