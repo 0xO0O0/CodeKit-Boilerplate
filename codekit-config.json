@@ -124,21 +124,17 @@
       "outputStyle" : 1,
       "fileType" : 32
     },
-    "\/src\/haml\/index.haml" : {
-      "inputAbbreviatedPath" : "\/src\/haml\/index.haml",
-      "outputAbbreviatedPath" : "\/build\/index.html",
-      "outputPathIsSetByUser" : 0,
-      "escapeHTMLCharacters" : 0,
-      "useUnixNewlines" : 0,
-      "useCDATA" : 0,
-      "ignore" : 0,
-      "noEscapeInAttributes" : 1,
-      "outputFormat" : 2,
-      "useDoubleQuotes" : 0,
+    "\/src\/sass\/partials\/_settings-grid.scss" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
       "hidden" : 0,
-      "fileType" : 256,
-      "outputStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_settings-grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_settings-grid.css",
+      "fileType" : 4,
+      "debugStyle" : 2
     },
     "\/src\/sass\/partials\/_main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -163,6 +159,15 @@
       "outputAbbreviatedPath" : "\/build\/js\/plugins.js",
       "fileType" : 64
     },
+    "\/build\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/build\/apple-touch-icon-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -174,38 +179,32 @@
       "initialSize" : 1226,
       "fileType" : 8192
     },
-    "\/build\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
+    "\/src\/haml\/index.haml" : {
+      "inputAbbreviatedPath" : "\/src\/haml\/index.haml",
+      "outputAbbreviatedPath" : "\/build\/index.html",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 1,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
     },
-    "\/src\/sass\/partials\/_settings-grid.scss" : {
+    "\/build\/js\/vendor\/respond.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_settings-grid.scss",
+      "inputAbbreviatedPath" : "\/build\/js\/vendor\/respond.min.js",
       "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_settings-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 2
-    },
-    "\/src\/sass\/partials\/_colors.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_colors.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/build\/css\/_colors.css",
-      "fileType" : 4,
-      "debugStyle" : 2
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/build\/js\/respond.min-ck.js",
+      "fileType" : 64
     },
     "\/build\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -218,16 +217,17 @@
       "outputAbbreviatedPath" : "\/build\/js\/plugins-ck.js",
       "fileType" : 64
     },
-    "\/build\/js\/vendor\/respond.min.js" : {
+    "\/src\/sass\/partials\/_colors.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/js\/vendor\/respond.min.js",
+      "inputAbbreviatedPath" : "\/src\/sass\/partials\/_colors.scss",
       "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/build\/js\/respond.min-ck.js",
-      "fileType" : 64
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/build\/css\/_colors.css",
+      "fileType" : 4,
+      "debugStyle" : 2
     },
     "\/build\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 1,
